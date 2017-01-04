@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
     
     public func heightConstraint(height: CGFloat) -> NSLayoutConstraint {
         let heightConstraint =
